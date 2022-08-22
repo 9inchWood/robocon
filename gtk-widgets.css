@@ -1,0 +1,125 @@
+.grid{
+    background-color: yellowgreen;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
+
+.circularbuttons{
+    background-color: white;
+    background-image: none;
+    border-radius: 200px;
+}
+
+.circularbuttons:active{
+    border-radius: 100px;
+    color: white;
+    background-color: green;
+    opacity: 0.95;
+    text-decoration: underline;
+    background-image:  -gtk-gradient (linear,
+             left top,
+             left bottom,
+             color-stop(0.0,rgba(34,97,70,1)),
+             color-stop(0.30,rgba(56,145,118,0.9)),
+             color-stop(0.81,rgba(34,131,116,0.9)),
+             color-stop(1.00,rgba(104,191,134,1)));
+}
+
+.tubes{
+    background-color: white;
+    background-image: none;
+    border-radius: 20px;
+}
+
+.tubes:active{
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    opacity: 0.95;
+    text-decoration: underline;
+    background-image:  -gtk-gradient (linear,
+             left top,
+             left bottom,
+             color-stop(0.0,rgba(34,97,70,1)),
+             color-stop(0.30,rgba(56,145,118,0.9)),
+             color-stop(0.81,rgba(34,131,116,0.9)),
+             color-stop(1.00,rgba(104,191,134,1)));
+}
+
+.runway{
+    background-color: white;
+    background-image: none;
+    border-radius: 20px;
+}
+
+.runway:active{
+    border-radius: 20px;
+    color: white;
+    background-color: green;
+    opacity: 0.95;
+    text-decoration: underline;
+    background-image:  -gtk-gradient (linear,
+             left top,
+             left bottom,
+             color-stop(0.0,rgba(34,97,70,1)),
+             color-stop(0.30,rgba(56,145,118,0.9)),
+             color-stop(0.81,rgba(34,131,116,0.9)),
+             color-stop(1.00,rgba(104,191,134,1)));
+}
+
+.platform{
+    background-color: white;
+    background-image: none;
+    border-radius: 20px;
+}
+
+.platform:active{
+    border-radius: 20px;
+    color: white;
+    background-color: red;
+    opacity: 0.95;
+    text-decoration: underline;
+    background-image:  -gtk-gradient (linear,
+             left top,
+             left bottom,
+             color-stop(0.0,rgba(97,34,34,1)),
+             color-stop(0.30,rgba(145,56,56,0.9)),
+             color-stop(0.81,rgba(131,34,34,0.9)),
+             color-stop(1.00,rgba(191,104,104,1)));
+}
+
+.grid2{
+    margin-left: 10px;
+}
+
+.status{
+    font-size: 2em;
+}
+
+.shoot{
+    background: white url("./shoot.png");
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 100px;
+}
+
+.shoot:active{
+    border-radius: 100px;
+    color: white;
+    background-color: blue;
+    opacity: 0.95;
+    text-decoration: underline;
+    background-image:  -gtk-gradient (linear,
+             left top,
+             left bottom,
+             color-stop(0.0,rgba(34,60,97,1)),
+             color-stop(0.30,rgba(56,90,145,0.9)),
+             color-stop(0.81,rgba(34,63,131,0.9)),
+             color-stop(1.00,rgba(104,138,191,1)));
+}
+
+.sliders{
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+}
